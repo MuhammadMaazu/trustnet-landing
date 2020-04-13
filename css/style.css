@@ -342,17 +342,19 @@ hr {
   
   .main-title {
     position: absolute;
-    margin-top: 12%;
+    margin-top: 8%;
 
   }
 
   .main-tagline {
     position: absolute;
-    margin-top: 45%;
+    margin-top: 22%;
     font-size: 16px;
   }
 
  }
+
+ 
 
 
 .intro .main-title {
