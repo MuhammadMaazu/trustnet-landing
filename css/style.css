@@ -306,6 +306,7 @@ hr {
   font-size: 18px;
 }
 
+
 .main-title-covid {
   position: absolute;
   margin: 0;
@@ -341,13 +342,13 @@ hr {
   
   .main-title {
     position: absolute;
-    margin-top: 8%;
+    margin-top: 10%;
 
   }
 
   .main-tagline {
     position: absolute;
-    margin-top: 22%;
+    margin-top: 35%;
     font-size: 16px;
   }
 
