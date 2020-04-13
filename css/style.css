@@ -354,6 +354,28 @@ hr {
 
  }
 
+
+ @media (max-width: 767.98px) { 
+  .main-logo-covid {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .main-title-covid {
+    position: absolute;
+    margin-top: 10%;
+
+  }
+
+  .main-tagline-covid {
+    position: absolute;
+    margin-top: 40%;
+    font-size: 16px;
+  }
+
+ }
+
  
 
 
