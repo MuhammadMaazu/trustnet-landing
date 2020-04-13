@@ -250,9 +250,23 @@ hr {
   z-index: 1;
 }
 
+.large-header-covid {
+  position: relative;
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+}
+
 .intro .large-header {
   /* Baltoro Glacier Karakoram Pakistan photo credits: mingpoonphotography */
   background-image: url('../img/intro-bg.jpg');
+}
+
+.intro-covid .large-header-covid {
+  background-image: url('../img/whiteblock.jpeg');
 }
 
 .main-logo {
@@ -284,6 +298,31 @@ hr {
   margin: 0;
   padding: 0;
   color: #f9f1e9;
+  text-align: center;
+  top: 52%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  font-size: 18px;
+}
+
+.main-title-covid {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.main-tagline-covid {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #000;
   text-align: center;
   top: 52%;
   left: 50%;
@@ -374,6 +413,12 @@ hr {
 .news {
   background-position: center;
   background-image: url('../img/news-bg.jpg');
+  background-size: cover;
+}
+
+.news-covid {
+  background-position: center;
+  background-image: url('../img/news-cov.png');
   background-size: cover;
 }
 
