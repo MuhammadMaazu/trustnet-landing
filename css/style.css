@@ -13,6 +13,7 @@ body {
   color: #5a5a5a;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
@@ -355,7 +356,92 @@ hr {
  }
 
 
- @media (max-width: 767.98px) { 
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+ @media (min-width: 1025px) and (max-width: 1280px) {
+  .main-logo-covid {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .main-title-covid {
+    position: absolute;
+    margin-top: 10%;
+
+  }
+
+  .main-tagline-covid {
+    position: absolute;
+    margin-top: 20%;
+    font-size: 16px;
+  }
+
+ }
+
+ /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-logo-covid {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .main-title-covid {
+    position: absolute;
+    margin-top: 10%;
+
+  }
+
+  .main-tagline-covid {
+    position: absolute;
+    margin-top: 20%;
+    font-size: 16px;
+  }
+}
+ 
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .main-logo-covid {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .main-title-covid {
+    position: absolute;
+    margin-top: 10%;
+
+  }
+
+  .main-tagline-covid {
+    position: absolute;
+    margin-top: 20%;
+    font-size: 16px;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
   .main-logo-covid {
     position: absolute;
     height: 120px;
@@ -373,10 +459,31 @@ hr {
     margin-top: 40%;
     font-size: 16px;
   }
+  
+}
 
- }
 
- 
+@media (max-width: 319px) {
+  
+  .main-logo-covid {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+  }
+  
+  .main-title-covid {
+    position: absolute;
+    margin-top: 10%;
+
+  }
+
+  .main-tagline-covid {
+    position: absolute;
+    margin-top: 50%;
+    font-size: 16px;
+  }
+  
+}
 
 
 .intro .main-title {
