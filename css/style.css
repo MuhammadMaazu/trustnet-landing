@@ -274,6 +274,7 @@ hr {
   position: absolute;
   margin: 0;
   padding: 0;
+  margin-top: -50px;
   color: #f9f1e9;
   text-align: center;
   top: 26%;
@@ -318,6 +319,7 @@ hr {
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
+  
 }
 
 .main-tagline-covid {
@@ -331,6 +333,7 @@ hr {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   font-size: 18px;
+  margin-top: 50px;
 }
 
 
@@ -339,6 +342,7 @@ hr {
     position: absolute;
     height: 120px;
     width: 120px;
+    
   }
   
   .main-title {
